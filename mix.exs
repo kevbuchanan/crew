@@ -25,7 +25,7 @@ defmodule Crew.MixProject do
     [
       {:gen_stage, "~> 0.12"},
       {:timex, "~> 3.2"},
-      {:crontab, "~> 1.1.2"},
+      {:crontab, "~> 1.1"},
       {:poison, "~> 3.0"},
 
       # Azure

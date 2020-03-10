@@ -5,7 +5,7 @@
 Crew is designed to process jobs from "smart" queueing backends (i.e. AWS SQS,
 Azure Queue Storage). The backend is responsible for guaranteeing integrity of
 the job queue. Crew simply provides the interface for backends and processes
-jobs from the configured queues. Crew handles retry and retire logic for jobs.
+jobs from the configured queues. Crew dispatches retry and retire events for jobs.
 
 ## Usage
 
